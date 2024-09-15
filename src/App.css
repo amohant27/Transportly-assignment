@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #332834;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  font-size: 24px;
+  font-weight: 600;
+
+  p {
+    color: #332834;
+  }
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  margin: 2%;
+  /* // Direction of the items, can be row or column */
+  flex-direction: column;
+  background: #eee;
+}
+
+header,
+footer {
+  height: 6vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+main {
+  flex: 1;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 5vh;
+  h2 {
+    line-height: 20px;
+  }
+}
+
+.action-button {
+  display: flex;
+  margin-left: 80%;
+  margin-bottom: 5px;
+}
+
+.border-lb {border: 1px solid #ccc; border-width: 0 1px 1px 1px;}
